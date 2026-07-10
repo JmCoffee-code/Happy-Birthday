@@ -27,8 +27,8 @@
 
 const CONFIG = {
   // ── Recipient Info ────────────────────────────────────────────
-  name: "Irene",
-  photo: "./img/irene.jpg",       // Place your photo in the img/ folder
+  name: "Robina ❤️",
+  photo: "./img/robina.jpg",       // Place your photo in the img/ folder
   music: "./music/hbd.mpeg",      // Place your music in the music/ folder
 
   // ── Theme Colors ──────────────────────────────────────────────
@@ -61,7 +61,7 @@ const CONFIG = {
     {
       type: "countdown",
       from: 3,                    // Countdown from this number
-      goText: "🎉",              // Text shown after countdown ends
+       goText: "Happy Birthday 🎉"// goText: "🎉",              // Text shown after countdown ends
     },
     {
       type: "announcement",
@@ -100,7 +100,7 @@ const CONFIG = {
     {
       type: "profile",
       wishTitle: "Happy Birthday!",
-      wishText: "May the js.prototypes always be with you! ;)",
+      wishText: "Ngayon: 'Wow, Nursing student, future RN!' Sa sunod: 'Lord, kahit anong sakit na lang po basta wag lang pumasok sa duty.' HAHAHAHA",
     },
     {
       type: "fireworks",
@@ -112,7 +112,7 @@ const CONFIG = {
     },
     {
       type: "closing",
-      text: "Okay, now come back and tell me if you liked it.",
+      text: "Once again, Happy Birthday!",
       replayText: "Or click, if you want to watch it again.",
     },
   ],

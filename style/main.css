@@ -479,3 +479,54 @@ body {
 .swal2-popup {
   border-radius: 16px !important;
 }
+.envelope-container{
+    text-align:center;
+}
+
+.envelope{
+    width:220px;
+    margin:40px auto;
+    padding:30px;
+    background:#ffb6d9;
+    border-radius:15px;
+    cursor:pointer;
+    font-size:40px;
+    transition:.4s;
+    box-shadow:0 0 20px rgba(255,105,180,.5);
+}
+
+.envelope:hover{
+    transform:scale(1.08);
+}
+
+.envelope p{
+    font-size:18px;
+    margin-top:10px;
+}
+
+.love-letter{
+    display:none;
+    max-width:700px;
+    margin:auto;
+    padding:35px;
+    background:white;
+    color:#444;
+    border-radius:15px;
+    box-shadow:0 0 30px rgba(0,0,0,.2);
+    line-height:1.8;
+}
+
+.love-letter h2{
+    color:#ff4d88;
+    margin-bottom:20px;
+}
+
+.love-letter button{
+    margin-top:25px;
+    padding:10px 25px;
+    border:none;
+    border-radius:8px;
+    background:#ff4d88;
+    color:white;
+    cursor:pointer;
+}
